@@ -13,4 +13,13 @@ void main() {
   print('-' * 70);
   print('$a == $b Resultado: ${a == b}');
   print('$a ≠ $b Resultado: ${a != b}');
+  print('$a > $b Resultado: ${a > b}');
+  print('$a < $b Resultado: ${a < b}');
+  print('$a >= $b Resultado: ${a >= b}');
+  print('$a <= $b Resultado: ${a <= b}');
+
+  // Podemos atribuir esses resultados em uma variável
+  bool igual = a == b;
+  print('Verificação de igualdade: $igual');
+  print('-' * 70);
 }
